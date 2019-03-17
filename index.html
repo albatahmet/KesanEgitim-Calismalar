@@ -1,0 +1,117 @@
+<?php
+  $reklamlar = array();
+
+  $reklamlar[0]["isim"] = "PHP";
+  $reklamlar[0]["icerik"] = "PHP web tabanlı bir programlama dilidir.";
+  $reklamlar[0]["resim"] = "http://www.vtrain.co.in/wp-content/uploads/2018/04/PHP.jpg";
+
+  $reklamlar[1]["isim"] = "Java";
+  $reklamlar[1]["icerik"] = "Java bir programlama dilidir.";
+  $reklamlar[1]["resim"] = "https://images.techhive.com/images/article/2013/02/oracle_java-100026145-orig.jpg";
+
+  $reklamlar[2]["isim"] = "Dart";
+  $reklamlar[2]["icerik"] = "Dart'ı duran önerdi ekledik";
+  $reklamlar[2]["resim"] = "https://www.houseofbots.com/images/news/11477/cover.png";
+
+  $SOL = rand(0, 2);
+  $SAG = rand(0, 2);
+
+
+?>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <title>Ahmet.html</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <a class="navbar-brand" href="https://pbs.twimg.com/profile_images/1082413864699002880/nwmr1cQ8.jpg" target="_blank">Ahmet Albat</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <button type="button" class="btn btn-outline-secondary" style="margin-top:8px;">Anasayfa</button>
+
+      </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button type="button" class="btn btn-outline-secondary">İletişim</button>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="carousel-item active">
+            <img src="https://pazarlamaturkiye.com/wp-content/uploads/2018/06/pazarlama-iletisimi-nedir-768x384.png" class="d-block w-100" style="margin-top:-8px;"" alt=">
+          </div>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="mailto:ahmetalbat@gmail.com">e-mail</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button type="button" class="btn btn-outline-secondary">Sosyal Medya</button>
+
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="carousel-item active">
+            <img src="https://www.dedemkorkut.net/wp-content/uploads/2018/10/Fotolia_51055011_Subscription_Monthly_XXL-750x354.jpg" class="d-block w-100" style="margin-top:-8px;" alt="...">
+          </div>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://www.facebook.com/ahmetalbat" target="_blank">Facebook</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://www.instagram.com/albatahmet" target="_blank">İnstagram</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://twitter.com/albatahmett" target="_blank">Twitter</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="ahmetalbat.blog" target="_blank">Kişisel blog</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="10000">
+      <img src="Materyel\DSC_0003.JPG" class="d-block w-100" style="height:899px;"style="width:auto;"alt="...">
+    </div>
+    <div class="carousel-item" data-interval="10000">
+      <img src="Materyel\DSC_0020.JPG" class="d-block w-100" style="height:899px;"style="width:auto;" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="10000">
+      <img src="Materyel\DSC_0201.JPG" class="d-block w-100" style="height:899px;"style="width:auto;" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
