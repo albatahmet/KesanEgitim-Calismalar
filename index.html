@@ -1,32 +1,9 @@
-<?php
-  $reklamlar = array();
-
-  $reklamlar[0]["isim"] = "PHP";
-  $reklamlar[0]["icerik"] = "PHP web tabanlı bir programlama dilidir.";
-  $reklamlar[0]["resim"] = "http://www.vtrain.co.in/wp-content/uploads/2018/04/PHP.jpg";
-
-  $reklamlar[1]["isim"] = "Java";
-  $reklamlar[1]["icerik"] = "Java bir programlama dilidir.";
-  $reklamlar[1]["resim"] = "https://images.techhive.com/images/article/2013/02/oracle_java-100026145-orig.jpg";
-
-  $reklamlar[2]["isim"] = "Dart";
-  $reklamlar[2]["icerik"] = "Dart'ı duran önerdi ekledik";
-  $reklamlar[2]["resim"] = "https://www.houseofbots.com/images/news/11477/cover.png";
-
-  $SOL = rand(0, 2);
-  $SAG = rand(0, 2);
-
-
-?>
-
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
     <title>Ahmet.html</title>
@@ -42,12 +19,12 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <button type="button" class="btn btn-outline-secondary" style="margin-top:8px;">Anasayfa</button>
+        <button type="button" class="btn btn-info" style="margin-top:8px;">Anasayfa</button>
 
       </li>
       <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <button type="button" class="btn btn-outline-secondary">İletişim</button>
+        <button type="button" class="btn btn-info">İletişim</button>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <div class="carousel-item active">
@@ -59,7 +36,7 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <button type="button" class="btn btn-outline-secondary">Sosyal Medya</button>
+          <button type="button" class="btn btn-info">Sosyal Medya</button>
 
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -79,10 +56,11 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-info" type="submit">Arama</button>
     </form>
   </div>
 </nav>
+
 <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-interval="10000">
